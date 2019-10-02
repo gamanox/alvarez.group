@@ -11,6 +11,7 @@ import pic04 from '../assets/images/moldes.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
+
 class HomeIndex extends React.Component {
     render() {
 
