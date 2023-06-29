@@ -18,10 +18,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="ALVAREZ GROUP"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Innovation ' },
+                        { name: 'keywords', content: 'innovation, technology' },
                     ]}
                 >
                 </Helmet>
@@ -35,45 +35,45 @@ class HomeIndex extends React.Component {
                                 <h3>DISEÑO</h3>
                                 <p>Creamos el produtcto que necesitas</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            {/* <Link to="/landing" className="link primary"></Link> */}
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>INYECCIÓN</h3>
                                 <p>Utilizamos los diferentes sistemas de manejo del plastico</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            {/* <Link to="/landing" className="link primary"></Link> */}
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>PROCESOS</h3>
                                 <p>Automatizacion y Mejora de procesos</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            {/* <Link to="/landing" className="link primary"></Link> */}
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>MOLDES</h3>
                                 <p>Diseño y Manufactura</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            {/* <Link to="/landing" className="link primary"></Link> */}
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>MANUFACTURA</h3>
                                 <p>Todos los productos que necesites al mejor precio</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            {/* <Link to="/landing" className="link primary"></Link> */}
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>INSTALACIÓN</h3>
                                 <p>Te asesoramos en la instalacion de tu maquinaria</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            {/* <Link to="/landing" className="link primary"></Link> */}
                         </article>
                     </section>
-                    <section id="two">
+                    {/* <section id="two">
                         <div className="inner">
                             <header className="major">
                                 <h2>Massa libero</h2>
@@ -83,7 +83,7 @@ class HomeIndex extends React.Component {
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
 
             </Layout>
